@@ -1,5 +1,5 @@
 # Sakila-world-task
-Sakila task:
+
 1
 select first_name, last_name from actor;
 
