@@ -1,5 +1,7 @@
 # Sakila-world-task
 
+Sakila task: 
+
 1
 select first_name, last_name from actor;
 
@@ -76,3 +78,9 @@ select first_name, last_name from actor where last_name like '%son' order by fir
 
 25
 select category.name as Most_popular_category from category join film_category on film_category.category_id=category.category_id group by category.category_id order by count(film_category.category_id) desc limit 1;
+
+
+World Task:
+
+1
+select count(CountryCode) from city where CountryCode='USA';
